@@ -26,4 +26,8 @@ public class Persona{
 	public String getEmail(){return _email;}
 
 	public void setEmail(String email){_email = email;}
+
+	public String toString(){
+		return _email;
+	}
 }
